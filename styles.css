@@ -1,0 +1,42 @@
+/* ELEMENT SELECTOR */
+h1 {
+    background-color: salmon;
+}
+
+/* ID SELECTOR */
+#header-title {
+    background-color: dodgerblue;
+}
+
+/* CLASS SELECTOR */
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+/* PSEUDO SELEKTOR/CLASS */
+.box:hover {
+    background-color: antiquewhite;
+    border-bottom: 1px solid black;
+
+    transition: all 0.4s;
+
+    cursor: pointer;
+}
+
+/* PSEUDO ELEMENT */
+input::placeholder {
+    font-size: 10em;
+}
+
+.extratext {
+    width: 300px;
+    background-color: burlywood;
+    border: 1px solid black;
+    border-radius: 8px;
+    pad: 5px;
+}
+
+.is-hidden {
+    visibility: hidden;
+}
